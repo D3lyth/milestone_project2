@@ -49,4 +49,16 @@ while (randomEmojis.length < width) {
         randomEmojis.push(emoji);
     }
 }
-​
+
+// Set the word variable with the randomly chosen emojis
+word = randomEmojis.join("");
+// // Access the HTML element by its ID
+// Clear any existing content
+testAnswer.innerHTML = '';
+// Create spans for each emoji and append them to the word display
+randomEmojis.forEach((emoji, index) => {
+    let span = document.createElement("span");
+    span.innerText = emoji;
+    span.classList.add(`order-${index + 1}`);
+    testAnswer.appendChild(span);
+});
