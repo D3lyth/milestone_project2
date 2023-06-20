@@ -11,3 +11,31 @@ let testAnswer = document.getElementById("test_answer");
 window.onload = function () {
 	startGame();
 }
+
+function startGame() {
+	// List of emojis to choose from
+	const emojiList = [
+		"\uD83C\uDF4E", // 🍎
+		"\uD83E\uDD51", // 🥑
+		"\uD83C\uDF2D", // 🌭
+		"\uD83C\uDF51", // 🍑
+		"\uD83E\uDDC0", // 🧀
+		"\uD83C\uDF54", // 🍔
+		"\uD83C\uDF36", // 🌶️
+		"\uD83C\uDF2E", // 🌮
+		"\uD83C\uDF66", // 🍦
+		"\uD83C\uDF4C", // 🍌
+		"\uD83C\uDF55", // 🍕
+		"\uD83C\uDF5F", // 🍟
+		"\uD83C\uDF63", // 🍣
+		"\uD83C\uDF69", // 🍩
+		"\uD83C\uDF7F", // 🍿
+		"\uD83E\uDD68", // 🥨
+		"\uD83C\uDF52", // 🍒
+		"\uD83C\uDF49", // 🍉
+		"\uD83C\uDF6D", // 🍭
+		"\uD83C\uDF53", // 🍓
+		"\uD83C\uDF3D", // 🌽
+		"\uD83E\uDD65" // 🥥
+	];
+}
