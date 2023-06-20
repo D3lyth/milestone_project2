@@ -39,3 +39,14 @@ function startGame() {
 		"\uD83E\uDD65" // 🥥
 	];
 }
+
+// Randomly select 5 unique emojis from the list
+const randomEmojis = [];
+while (randomEmojis.length < width) {
+    const randomIndex = Math.floor(Math.random() * emojiList.length);
+    const emoji = emojiList[randomIndex];
+    if (!randomEmojis.includes(emoji)) {
+        randomEmojis.push(emoji);
+    }
+}
+​
