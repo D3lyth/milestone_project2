@@ -25,3 +25,21 @@ body {
     margin: 5px;
     margin: 0 auto;
   }
+
+  .key {
+    padding: 7px;
+    margin: 5px;
+    background-color: #eaeaea;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .key:hover {
+    background-color: #ccc;
+  }
+  
+  #result {
+    margin-top: 20px;
+  }
