@@ -6,3 +6,12 @@ body {
   hr {
     width: 500px;
   }
+
+  /* GAME BOARD STYLING*/
+#gameboard {
+    width: 350px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
