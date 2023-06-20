@@ -62,3 +62,16 @@ randomEmojis.forEach((emoji, index) => {
     span.classList.add(`order-${index + 1}`);
     testAnswer.appendChild(span);
 });
+
+​
+// Create board with empty squares
+for (let r = 0; r < height; r++) {
+	for (let c = 0; c < width; c++) {
+		//create span and add id to tile
+		let tile = document.createElement("span");
+		tile.id = r.toString() + "-" + c.toString();
+		tile.classList.add("tile"); //add class to styling
+		tile.innerText = "";
+		document.getElementById("gameboard").appendChild(tile);
+	}
+}
