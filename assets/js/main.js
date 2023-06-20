@@ -63,7 +63,6 @@ randomEmojis.forEach((emoji, index) => {
     testAnswer.appendChild(span);
 });
 
-​
 // Create board with empty squares
 for (let r = 0; r < height; r++) {
 	for (let c = 0; c < width; c++) {
@@ -75,3 +74,12 @@ for (let r = 0; r < height; r++) {
 		document.getElementById("gameboard").appendChild(tile);
 	}
 }
+
+// START OF CODE TO USE ON-SCREEN KEYBOARD    
+// Get all the emoji keyboard buttons
+const keyboard = document.getElementById("keyboard");
+const keys = keyboard.getElementsByClassName("key");
+
+// Get the backspace and clear buttons
+const backspaceButton = document.getElementById("backspace");
+const clearButton = document.getElementById("clear");
