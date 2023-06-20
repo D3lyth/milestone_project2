@@ -83,3 +83,19 @@ const keys = keyboard.getElementsByClassName("key");
 // Get the backspace and clear buttons
 const backspaceButton = document.getElementById("backspace");
 const clearButton = document.getElementById("clear");
+
+// Add event listener for the backspace button
+backspaceButton.addEventListener("click", handleBackspace);
+
+// Add event listener for the clear button
+clearButton.addEventListener("click", handleClear);
+
+// Add event listener for the guess button
+const guessButton = document.getElementById("guessbtn");
+guessButton.disabled = true;
+guessButton.addEventListener("click", handleGuess);
+
+// Add event listener to each keyboard button
+for (let i = 0; i < keys.length; i++) {
+	keys[i].addEventListener("click", handleKeyPress);
+}
