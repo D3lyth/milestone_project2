@@ -6,3 +6,8 @@ let col = 0; //current letter within attempt
 let gameOver = false;
 let word;
 let testAnswer = document.getElementById("test_answer");
+
+//Game to start on the loading of the screen
+window.onload = function () {
+	startGame();
+}
