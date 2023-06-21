@@ -16,6 +16,20 @@ body {
     flex-wrap: wrap;
   }
 
+  .tile {
+    /* Box */
+    border: 2px solid lightgrey;
+    width: 60px;
+    height: 60px;
+    margin: 2.5px;
+    /* box */
+    font-size: 40px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
   /* KEYBOARD STYLING */
 #keyboard {
     display: flex;
