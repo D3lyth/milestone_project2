@@ -75,3 +75,12 @@ body {
   #result {
     margin-top: 20px;
   }
+
+  #correct_answer {
+    font-weight: bold;
+    color: black;
+  }
+  
+  .hide {
+    display: none !important;
+  }
