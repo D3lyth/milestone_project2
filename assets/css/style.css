@@ -29,7 +29,25 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+  .correct {
+    background-color: green;
+    color: white;
+    border-color: white;
+  }
   
+  .present {
+    background-color: yellow;
+    color: white;
+    border-color: white;
+  }
+  
+  .absent {
+    background-color: red;
+    color: white;
+    border-color: white;
+  }
+
   /* KEYBOARD STYLING */
 #keyboard {
     display: flex;
