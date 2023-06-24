@@ -13,11 +13,11 @@ h1 {
 
   /* GAME BOARD STYLING*/
 #gameboard {
-    width: 350px;
-    height: 450px;
+    width: fit-content;
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
   }
 
   .tile {
