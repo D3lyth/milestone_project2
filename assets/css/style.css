@@ -52,10 +52,6 @@ h1 {
 
   /* KEYBOARD STYLING */
 #keyboard {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 450px;
     margin: 5px;
     margin: 0 auto;
   }
