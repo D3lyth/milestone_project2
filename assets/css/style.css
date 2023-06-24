@@ -108,11 +108,23 @@ h1 {
       font-size: 6vw;
     }
 
+    @media only screen and (min-width: 1200px) {
+      h1 {
+        font-size: 3vw;
+      }
+  
+      .tile {
+        /* Box */
+        width: 5vw;
+        height: 5vw;
+        font-size: 3vw;
+      }
+    }
+
     #keyboard {
       max-width: 53vw;
     }
   }
-
 
   .hide {
     display: none !important;
