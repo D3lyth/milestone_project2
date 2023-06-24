@@ -23,12 +23,10 @@ h1 {
   .tile {
     /* Box */
     border: 2px solid lightgrey;
-    width: 60px;
-    height: 60px;
-    margin: 2.5px;
-    /* box */
-    font-size: 40px;
-    color: black;
+    width: 15vw;
+    height: 15vw;
+    margin: 1vw;
+    font-size: 11vw;
     display: flex;
     justify-content: center;
     align-items: center;
