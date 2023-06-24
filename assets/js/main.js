@@ -181,6 +181,10 @@ function update() {
 			}
 		}
 	}
+	if (correct === width) {
+        // All emojis guessed correctly
+        document.getElementById("well_done").classList.remove("hide");
+    }
 }
 
 function handleGameOver() {
