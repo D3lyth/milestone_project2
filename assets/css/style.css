@@ -12,6 +12,11 @@ h1 {
   font-family: 'Bungee Shade', cursive;
 }
 
+#well_done {
+  font-family: 'Rubik Puddles', cursive;
+  font-size: 6vw;
+}
+
   /* GAME BOARD STYLING*/
 #gameboard {
     width: fit-content;
