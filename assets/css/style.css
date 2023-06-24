@@ -79,6 +79,23 @@ h1 {
     color: black;
   }
   
+  @media only screen and (min-width: 600px) {
+    h1 {
+      font-size: 7vw;
+    }
+    
+    .tile {
+      /* Box */
+      width: 11vw;
+      height: 11vw;
+      font-size: 8vw;
+    }
+
+    #keyboard {
+      max-width: 80vw;
+    }
+  }
+  
   .hide {
     display: none !important;
   }
