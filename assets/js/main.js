@@ -21,7 +21,7 @@ function startGame() {
 		"\uD83C\uDF51", // 🍑
 		"\uD83E\uDDC0", // 🧀
 		"\uD83C\uDF54", // 🍔
-		"\uD83C\uDF36", // 🌶️
+		"\uD83C\uDF6B", // 🍫
 		"\uD83C\uDF2E", // 🌮
 		"\uD83C\uDF66", // 🍦
 		"\uD83C\uDF4C", // 🍌
