@@ -15,23 +15,14 @@ Also, instead of coming up with a random word (like Wordle), it is a sequence on
 The target audience could be anyone that can use a PC or a device such as a mobile phone or a tablet. Emoji Match offers a logic game that uses images rather than words, therfore the ability to spell is not a pre-requisit. But due to it's puzzling nature, should also provide the challenge to those who like to keep the mind busy.
 
 
-Consider adding a mockup image using the "Am I Responsive" website.
-Here's your deployed site as an example:
+Here is a mockup image using the "Am I Responsive" website.
+using the deplyed site:
 https://ui.dev/amiresponsive?url=https://d3lyth.github.io/milestone_project2
-
-Screenshots for the README and testing should not be inside of `assets/` or `static/` image folders.
-(reminder: `assets/` and `static/` are for files used on the live site, not documentation)
-Consider adding a new folder called `documentation`, and add the amiresponsive screenshot inside of that folder.
-To add the image into your README, use this format:
-(assuming you have a new folder called `documentation` with an image called "mockup.png")
 
 ![screenshot](documentation/mockup.png)
 
-Note: Markdown files (.md) should not contain HTML elements like `img`, `br`, `div`, `a`, etc, only Markdown formatting.
-Find out more about using Markdown elements here:
-https://pandao.github.io/editor.md/en.html
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+🛑🛑🛑🛑🛑 CHANGE MOCKUP IF NEEDS BE 🛑🛑🛑🛑🛑
 
 ## UX
 
