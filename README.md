@@ -112,19 +112,23 @@ In this section, list all of your user stories for the project.
 
 ### New Site Users
 
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
+- As a new site user, I would like to read the instructions, so that I can understand how to play the game.
+- As a new site user, I would like to start a new game, so that I can play the game.
+- As a new site user, I would like to be able to delete an emoji, so that I can change my guess if I have chosen the wrong emoji.
+- As a new site user, I would like to click on guess, so that I can check to see whether my emoji guess is correct.
+- As a new site user, I would like to see how my guess compares, so that I can make a new guess.
+- As a new site user, I would like to see a well done message if correct, so that I know that I have completed the game.
+- As a new site user, I would like to see the answer, so that I can see what I did wrong if I wasn't able to get the answer within the number of guesses allowed.
 
 ### Returning Site Users
 
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
+- As a returning site user, I would like to read the instructions again, so that I can remind myslef how to play, if needed.
+- As a returning site user, I would like to start a new game, so that I can have another go at guessing the emoji sequence.
+- (As with a new site user) As a returning site user, I would like to be able to delete an emoji, so that I can change my guess if I have chosen the wrong emoji.
+- (As with a new site user) As a returning site user, I would like to click on guess, so that I can check to see whether my emoji guess is correct.
+- (As with a new site user) As a returning site user, I would like to see how my guess compares, so that I can make a new guess.
+- (As with a new site user) As a returning site user, I would like to see a well done message if correct, so that I know that I have completed the game.
+- (As with a new site user) As a returning site user, I would like to see the answer, so that I can see what I did wrong if I wasn't able to get the answer within the number of guesses allowed.
 
 ### Site Admin
 
