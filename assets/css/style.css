@@ -11,9 +11,31 @@ h1 {
   font-size: 10vw;
   font-family: 'Bungee Shade', cursive;
   color:black;
-  background-color: #ccff00;
   margin: 0 10%;
   margin-top: 3vw;
+  animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: #64ff00;
+  }
+
+  25% {
+    background-color:#FC49AB;
+  }
+
+  50% {
+    background-color: #ffa500;
+  }
+
+  75% {
+    background-color: #ffFF00;
+  }
+
+  100% {
+    background-color:#64ff00;
+  }
 }
 
 li {
