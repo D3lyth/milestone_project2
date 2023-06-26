@@ -1,19 +1,18 @@
-# Emoji Match
+# 🍒Emoji Match
 
-Emoji is a fun, logic game for everone of all ages to use. It is based on a logic board game from the 1970s called Mastermind. 
+Emoji is a fun, logic game for everyone of all ages to use. It is based on a logic board game from the 1970s, called Mastermind. 
 
-The game involved two players in which on player chose a sequence of coloured pegs and the other player had to correctly deduce the sequence of coloured pegs.
+The Mastermind game involved two players, in which one of the players chose a sequence of coloured pegs, and the other player had to correctly deduce the sequence of coloured pegs in a certain number of guesses.
 
-The player would be told if the pegs were in the right place, or told that the correct colour was present but in the incorrect position.
+The player would be told if the pegs were in the right place, or told that the correct colour was present, but in the incorrect position.
 
-But Emoji Match is also based on another, more recent game - Wordle.
+Emoji Match is also based on another, more recent game - Wordle.
 
 Emoji is an updated, digital version of the Mastermind game, where instead of a sequence of coloured pegs is used, a sequence of emojis are randomly chosen and can be played on a device rather than a board. 
 
-Also, instead of coming up with a random word (like Wordle), it is a sequence on emojis that is needed, opening up the game to younger users.
+Also, instead of coming up with a random word (like Wordle), it is a sequence of emojis that is needed, opening up the game to younger users.
 
-The target audience could be anyone that can use a PC or a device such as a mobile phone or a tablet. Emoji Match offers a logic game that uses images rather than words, therfore the ability to spell is not a pre-requisit. But due to it's puzzling nature, should also provide the challenge to those who like to keep the mind busy.
-
+The target audience could be anyone that can use a PC or a device such as a mobile phone or a tablet. Emoji Match offers a logic game that uses images rather than words, therfore the ability to spell is not a pre-requisite. But due to its puzzling nature, Emoji Match should also provide the challenge to those who like to keep the mind busy.
 
 Here is a mockup image using the "Am I Responsive" website.
 using the deplyed site:
