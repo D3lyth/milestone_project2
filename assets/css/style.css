@@ -38,10 +38,19 @@ h1 {
   }
 }
 
-li {
+ol {
   text-align: left;
 }
 
+ul {
+  text-align: left;
+  list-style: none;
+}
+
+.luck {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 4vw;
+}
 /* How to Play instructions */
 .hide {
   display: none;
