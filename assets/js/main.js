@@ -100,6 +100,11 @@ for (let i = 0; i < keys.length; i++) {
 	keys[i].addEventListener("click", handleKeyPress);
 }
 
+// Add event listener for the new game button
+const newGameButton = document.getElementById("newGameButton");
+newGameButton.addEventListener("click", startNewGame);
+
+
 // Function to handle keyboard button click
 function handleKeyPress(event) {
 	const emojiLetter = event.target.innerText;
