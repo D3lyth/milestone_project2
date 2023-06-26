@@ -1,14 +1,19 @@
 # Emoji Match
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+Emoji is a fun, logic game for everone of all ages to use. It is based on a logic board game from the 1970s called Mastermind. 
 
-In this section, you will include a few paragraphs providing an overview of your project.
-Essentially, this part is your "sales pitch".
+The game involved two players in which on player chose a sequence of coloured pegs and the other player had to correctly deduce the sequence of coloured pegs.
 
-At this stage, you should have a name for your project so use it!
-Don't introduce the project as a "portfolio project" for the diploma.
+The player would be told if the pegs were in the right place, or told that the correct colour was present but in the incorrect position.
 
-In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
+But Emoji Match is also based on another, more recent game - Wordle.
+
+Emoji is an updated, digital version of the Mastermind game, where instead of a sequence of coloured pegs is used, a sequence of emojis are randomly chosen and can be played on a device rather than a board. 
+
+Also, instead of coming up with a random word (like Wordle), it is a sequence on emojis that is needed, opening up the game to younger users.
+
+The target audience could be anyone that can use a PC or a device such as a mobile phone or a tablet. Emoji Match offers a logic game that uses images rather than words, therfore the ability to spell is not a pre-requisit. But due to it's puzzling nature, should also provide the challenge to those who like to keep the mind busy.
+
 
 Consider adding a mockup image using the "Am I Responsive" website.
 Here's your deployed site as an example:
