@@ -213,3 +213,26 @@ function clearBoard() {
     guessButton.disabled = true;
 }
 
+// Function to start a new game
+function startNewGame() {
+    // Update game title
+    document.getElementById("main_title").innerText = "🍒 Emoji Match";
+  
+    // Reset game variables and state
+    row = 0;
+    col = 0;
+    gameOver = false;
+    word = "";
+    testAnswer.innerHTML = "";
+    document.getElementById("well_done").classList.add("hide");
+    document.getElementById("result").classList.add("hide");
+    testAnswer.classList.remove("hide");
+    document.getElementById("keyboard").classList.remove("hide");
+    guessButton.classList.remove("hide");
+
+    // Clear the game board
+    clearBoard();
+
+    // Start a new game
+    startGame();
+}
