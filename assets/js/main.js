@@ -199,3 +199,17 @@ function handleGameOver() {
 	document.getElementById("keyboard").classList.add("hide");  // hide the keyboard
 	guessButton.classList.add("hide");  // hide the guessButton
 }
+
+// Function to clear the game board
+function clearBoard() {
+    for (let r = 0; r < height; r++) {
+        for (let c = 0; c < width; c++) {
+            let tile = document.getElementById(r.toString() + "-" + c.toString());
+            tile.innerText = "";
+            tile.classList.remove("correct", "present", "absent");
+        }
+    }
+    col = 0;
+    guessButton.disabled = true;
+}
+
