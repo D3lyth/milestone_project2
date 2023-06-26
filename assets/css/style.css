@@ -12,6 +12,11 @@ h1 {
   font-family: 'Bungee Shade', cursive;
 }
 
+/* How to Play instructions */
+.hide {
+  display: none;
+}
+
 #well_done {
   font-family: 'Rubik Puddles', cursive;
   font-size: 6vw;
