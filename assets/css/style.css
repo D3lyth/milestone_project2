@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
     text-align: center;
+    background-color: #e2a2f4;
   }
 
   hr {
@@ -12,14 +13,30 @@ h1 {
   font-family: 'Bungee Shade', cursive;
 }
 
+li {
+  text-align: left;
+}
+
 /* How to Play instructions */
 .hide {
   display: none;
 }
 
+/* How to play modal content styling */
+
+
+img, svg {
+  width: 45vw;
+}
+
 #well_done {
   font-family: 'Rubik Puddles', cursive;
   font-size: 6vw;
+}
+
+#guessbtn {
+border: 5px solid #f4a2a2;
+
 }
 
   /* GAME BOARD STYLING*/
