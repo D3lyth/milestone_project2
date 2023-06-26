@@ -23,20 +23,15 @@ li {
 }
 
 /* How to play modal content styling */
-
-
 img, svg {
   width: 45vw;
 }
 
+/* Game completion message */
+
 #well_done {
   font-family: 'Rubik Puddles', cursive;
   font-size: 6vw;
-}
-
-#guessbtn {
-border: 5px solid #f4a2a2;
-
 }
 
   /* GAME BOARD STYLING*/
@@ -105,7 +100,7 @@ border: 5px solid #f4a2a2;
   #correct_answer {
     font-weight: bold;
     color: black;
-    font-size: 4vw;
+    font-size: 3vw;
     font-family: 'Rampart One', cursive;
   }
   
