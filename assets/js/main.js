@@ -7,11 +7,6 @@ let gameOver = false;
 let word;
 let testAnswer = document.getElementById("test_answer");
 
-// //Game to start on the loading of the screen
-// window.onload = function () {
-// 	startGame();
-// }
-
 function startGame() {
 	// List of emojis to choose from
 	const emojiList = [
