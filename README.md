@@ -357,10 +357,6 @@ Ideally, you should provide an actual link to every resource used, not just a ge
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
 | [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
 | [StackOverflow](https://stackoverflow.com/a/2450976) | quiz page | Fisher-Yates/Knuth shuffle in JS |
-| [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores |
-| [YouTube](https://www.youtube.com/watch?v=u51Zjlnui4Y) | PP3 terminal | tutorial for adding color to the Python terminal |
-| [strftime](https://strftime.org) | CRUD functionality | helpful tool to format date/time from string |
-| [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
 
 ### Media
 
@@ -392,15 +388,9 @@ by sending yourself the following command: `!freemedia`.
 
 ### Acknowledgements
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution to any supports that helped, encouraged, or supported you throughout the development stages of this project.
-A few examples have been provided below to give you some ideas.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
+- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project. His patience and assistance has been invaluable.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
+- I would like to thank Iris Smok, our course facilitator for her support and encouragement.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
-- I would like to thank my partner (John/Jane), for believing in me, and allowing me to make this transition into software development.
-- I would like to thank my employer, for supporting me in my career development change towards becoming a software developer.
+- I would like to thank my partner Rob, for believing in me, and allowing me to make this transition into software development.
+- I would like to thank my daughter Erin, for spending a lot of time playing and testing out the Emoji Match game to chekc for bugs and to give suggestions on the looks and feel of the game.
