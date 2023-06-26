@@ -220,9 +220,9 @@ function clearBoard() {
 
 // Function to start a new game
 function startNewGame() {
-    // Update game title
+	// Update game title
     document.getElementById("main_title").innerText = "🍒 Emoji Match";
-  
+
     // Reset game variables and state
     row = 0;
     col = 0;
