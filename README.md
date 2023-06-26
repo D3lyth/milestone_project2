@@ -1,4 +1,4 @@
-# MILESTONE PROJECT2
+# Emoji Match
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
@@ -224,21 +224,18 @@ Hint: the more, the merrier!
 
 ### Future Features
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- Title for future feature #1
-    - Any additional notes about this feature.
-- Title for future feature #2
-    - Any additional notes about this feature.
-- Title for future feature #3
-    - Any additional notes about this feature.
+- Different Themes
+    - Currently, Emoji Match has a food theme. In a future feature, various themes can be included and the user would be able to choose the theme - this may be animals, emoji faces, flags etc. 
+- Difficulty Level
+    - In future versions, the user could have an option to choose an easy, medium or hard game. This could mean that the user can have more than 6 guesses to try and get the answer correct. Another way of changing the challenge could be that more or less emojis need to be matched.
+- Scoreboard
+    - A scoreboard can also be added to keep a tally of how many games the user have managed to win or lose.
+    - The scoreboard could also include information like the average guesses that the user has made to get to the answer.
+- Once a day game
+    - Currently, the user can click on the new game button and the user can play over and over again.
+    - The game can be modified to only allow one game a day and a winning streak can be recorded.
+- Celebration
+    - A celebratory confetti animation could be added for style purposes (and similarly a commiseration message animation).
 
 ## Tools & Technologies Used
 
