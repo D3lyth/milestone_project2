@@ -66,8 +66,6 @@ I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-If you've used CSS `:root` variables, consider also including a code snippet here!
-
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
@@ -86,17 +84,11 @@ I've used CSS `:root` variables to easily update the global colour scheme by cha
 
 ### Typography
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+The fonts were chosen for the Emoji Match game due to their fun nature. The game is supposed to appeal to all ages, therefore the playfulness aspect of the fonts needed to be showcased. 
 
-Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
+- [Bungee Shade](https://fonts.google.com/specimen/Bungee+Shade) was used for the primary headers and titles. This font was chosen as it is a reminder of 'old school' or 'vintage' video games from the 80s.
 
-Consider adding a link to each font used, and the Font Awesome site if used (or similar icon library).
-
-Example:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
+- Classic emojis were used throughout. Emojis can look slightly different dependents on browser/operating systems/devices, but they are included using Unicode to ensure that the correct emoji is being used.
 
 - [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
 
@@ -104,11 +96,7 @@ Example:
 
 ## User Stories
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, list all of your user stories for the project.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+🛑🛑🛑🛑🛑 ADD SCREENSHOTS??! 🛑🛑🛑🛑🛑
 
 ### New Site Users
 
