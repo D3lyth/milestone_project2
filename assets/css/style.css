@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
     text-align: center;
+    background-color: #f3f3f3;
   }
 
   hr {
@@ -87,6 +88,7 @@ img, svg {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #ffffff;
   }
 
   .correct {
