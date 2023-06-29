@@ -5,7 +5,7 @@ let row = 0; //current guess attempt
 let col = 0; //current letter within attempt
 let gameOver = false;
 let word;
-let testAnswer = document.getElementById("test_answer");
+let gameAnswer = document.getElementById("game_answer");
 
 function startGame() {
 	// List of emojis to choose from
@@ -34,28 +34,28 @@ function startGame() {
 		"\uD83E\uDD65" // 🥥
 	];
 
-// Randomly select 5 unique emojis from the list
-const randomEmojis = [];
-while (randomEmojis.length < width) {
-    const randomIndex = Math.floor(Math.random() * emojiList.length);
-    const emoji = emojiList[randomIndex];
-    if (!randomEmojis.includes(emoji)) {
-        randomEmojis.push(emoji);
-    }
-}
+	// Randomly select 5 unique emojis from the list
+	const randomEmojis = [];
+	while (randomEmojis.length < width) {
+		const randomIndex = Math.floor(Math.random() * emojiList.length);
+		const emoji = emojiList[randomIndex];
+		if (!randomEmojis.includes(emoji)) {
+			randomEmojis.push(emoji);
+		}
+	}
 
-// Set the word variable with the randomly chosen emojis
-word = randomEmojis.join("");
-// // Access the HTML element by its ID
-// Clear any existing content
-testAnswer.innerHTML = '';
-// Create spans for each emoji and append them to the word display
-randomEmojis.forEach((emoji, index) => {
-    let span = document.createElement("span");
-    span.innerText = emoji;
-    span.classList.add(`order-${index + 1}`);
-    testAnswer.appendChild(span);
-});
+	// Set the word variable with the randomly chosen emojis
+	word = randomEmojis.join("");
+	// // Access the HTML element by its ID
+	// Clear any existing content
+	gameAnswer.innerHTML = '';
+	// Create spans for each emoji and append them to the word display
+	randomEmojis.forEach((emoji, index) => {
+		let span = document.createElement("span");
+		span.innerText = emoji;
+		span.classList.add(`order-${index + 1}`);
+		gameAnswer.appendChild(span);
+	});
 }
 
 // Create board with empty squares
@@ -163,8 +163,8 @@ function update() {
 		currentTile.classList.remove("correct", "present", "absent");
 		// grab the current tile's emoji from the user input
 		let letter = currentTile.innerText;
-		// grab the nth testAnswer child <span>'s innerText for comparison
-		let wordEmoji = testAnswer.children[c].innerText;
+		// grab the nth gameAnswer child <span>'s innerText for comparison
+		let wordEmoji = gameAnswer.children[c].innerText;
 
 		if (letter !== "") {
 			// if the wordEmoji <span> text matches the user's guess
@@ -195,7 +195,6 @@ function handleGameOver() {
 		document.getElementById("correct_answer").innerText = "Correct Answer: " + word;
 	}
 	document.getElementById("result").classList.remove("hide"); // Show the result section
-	testAnswer.classList.add("hide");  // hide the testAnswer
 	document.getElementById("keyboard").classList.add("hide");  // hide the keyboard
 	guessButton.classList.add("hide");  // hide the guessButton
 }
@@ -223,10 +222,9 @@ function startNewGame() {
     col = 0;
     gameOver = false;
     word = "";
-    testAnswer.innerHTML = "";
+    gameAnswer.innerHTML = "";
     document.getElementById("well_done").classList.add("hide");
     document.getElementById("result").classList.add("hide");
-    testAnswer.classList.remove("hide");
     document.getElementById("keyboard").classList.remove("hide");
     guessButton.classList.remove("hide");
 
@@ -235,4 +233,9 @@ function startNewGame() {
 
     // Start a new game
     startGame();
+}
+
+// not used in-game, purely for using in DevTools console for quicker testing
+function testWord() {
+	if (word != undefined) console.log(word);
 }
