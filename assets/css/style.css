@@ -58,7 +58,7 @@ ul {
 
 /* How to play modal content styling */
 img, svg {
-  width: 30vw;
+  width: 100%;
 }
 
 /* Game completion message */
