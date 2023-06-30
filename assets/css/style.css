@@ -205,6 +205,7 @@ i:hover {
       font-size: 25px;
       display: flex;
       flex-wrap: wrap;
+      color: #000000;
   }
 
     .credits {
