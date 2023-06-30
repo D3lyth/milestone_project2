@@ -160,7 +160,7 @@ img, svg {
 
 i {
   color: #cd0ffc;
-  font-size: 7vw;
+  font-size: 30px;
 }
 
 i:hover {
@@ -197,6 +197,11 @@ i:hover {
 
     #keyboard {
       max-width: 80vw;
+    }
+
+    i {
+      color: #cd0ffc;
+      font-size: 20px;
     }
   }
 
