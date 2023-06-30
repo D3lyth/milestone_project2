@@ -33,7 +33,7 @@ Due to the nature of the game and the colours of the emojis used, I have tried t
 
 - `#000000` has been used for primary text.
 - `#fffff` has been used for button text.
-- `#cd0ffc` has been used for icon and footer text.
+- `#cd0ffc` has been used for instructional text, icons and ooter text.
 
 I used [We Love Colours](https://www.welovecolors.com/) as inspiration to research a colour pallete, which although (other than the emojis themselves) doesn't have a lot of colour, I wanted to incoroprate a neon theme.
 
@@ -45,9 +45,9 @@ The fonts were chosen for the Emoji Match game due to their fun nature. The game
 
 - [Bungee Shade](https://fonts.google.com/specimen/Bungee+Shade) was used for the primary headers and titles. This font was chosen as it is a reminder of 'old school' or 'vintage' video games from the 80s.
 
-- Classic emojis were used throughout. Emojis can look slightly different dependents on browser/operating systems/devices, but they are included using Unicode to ensure that the correct emoji is being used.
+- Classic emojis were used throughout. Emojis can look slightly different dependent on browser/operating systems/devices, but they are included using Unicode to ensure that the correct emoji is being used.
 
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
+- [Roboto](https://fonts.google.com/specimen/Roboto) was used for all other secondary text.
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
@@ -77,11 +77,9 @@ The fonts were chosen for the Emoji Match game due to their fun nature. The game
 
 ### Site Admin
 
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
+- As a site administrator, I should be able to click on the social links in the footer, so that I can ensure that the links are working.
+- As a site administrator, I should be able to click on the buttons, so that I can so that I na ensure that all buttons work.
+- As a site administrator, I should be able to manage instruction information, so that I can update if required.
 
 ## Wireframes
 
