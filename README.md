@@ -33,7 +33,8 @@ Due to the nature of the game and the colours of the emojis used, I have tried t
 
 - `#000000` has been used for primary text.
 - `#fffff` has been used for button text.
-- `#cd0ffc` has been used for instructional text, icons and ooter text.
+- `#cd0ffc` has been used for instructional text, icons and other text.
+- `#f3f3f3` has been used as a background colour as off-white is less harsh on the eyes and better for accessibility.
 
 I used [We Love Colours](https://www.welovecolors.com/) as inspiration to research a colour pallete, which although (other than the emojis themselves) doesn't have a lot of colour, I wanted to incoroprate a neon theme.
 
@@ -52,8 +53,6 @@ The fonts were chosen for the Emoji Match game due to their fun nature. The game
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
 ## User Stories
-
-🛑🛑🛑🛑🛑 ADD SCREENSHOTS??! 🛑🛑🛑🛑🛑
 
 ### New Site Users
 
@@ -95,21 +94,6 @@ I've used GoodNotes, and iPad and an Apple Pencil to design my site wireframes.
 | Desktop | ![screenshot](documentation/wireframes/desktop-home.jpeg) |
 
 ## Features
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, you should go over the different parts of your project,
-and describe each in a sentence or so.
-
-You will need to explain what value each of the features provides for the user,
-focusing on who this website is for, what it is that they want to achieve,
-and how your project is the best way to help them achieve these things.
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-IMPORTANT: Remember to always include a screenshot of each individual feature!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ### Existing Features
 
