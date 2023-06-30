@@ -15,21 +15,17 @@ Also, instead of coming up with a random word (like Wordle), it is a sequence of
 The target audience could be anyone that can use a PC or a device such as a mobile phone or a tablet. Emoji Match offers a logic game that uses images rather than words, therfore the ability to spell is not a pre-requisite. But due to its puzzling nature, Emoji Match should also provide the challenge to those who like to keep the mind busy.
 
 Here is a mockup image using the "Am I Responsive" website.
-using the deplyed site:
-https://ui.dev/amiresponsive?url=https://d3lyth.github.io/milestone_project2
+using the deployed site: [Emoji Match](https://ui.dev/amiresponsive?url=https://d3lyth.github.io/milestone_project2)
 
 ![screenshot](documentation/mockup.png)
 
-
-🛑🛑🛑🛑🛑 CHANGE MOCKUP IF NEEDS BE 🛑🛑🛑🛑🛑
-
 ## UX
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+The design is based on a board game and the online game Wordle. It will contain the logo/title, buttons to check the instructions and to begin a new game. There will then be the 'gameboard' where emojis will appear. Below the gameboard a guess button will be placed and then an on-screen keyboard to be able to populate the gameboard tiles with emojis.
 
-In this section, you will briefly explain your design processes.
+Below the gameboard are some credits and links to social media.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+Users will also see the correct answer appear if they don't get the correct answer in 6 guesses or less, and the title will change to a 'GAME OVER' message. A 'well done' message will also appear if the user manages to guess the answer in 6 guesses or less.
 
 ### Colour Scheme
 
