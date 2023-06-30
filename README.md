@@ -99,61 +99,60 @@ I've used GoodNotes, and iPad and an Apple Pencil to design my site wireframes.
 
 - **How to Play Button**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - This button when clicked will bring up a modal clearly explaining how to play the game to all users - including diagrams to show the user what to anticipate whilst playing the game.
 
 ![screenshot](documentation/feature01.png)
 
 - **New Game Button**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
-
+    - This button when clicked will start a new game for the user. This must be clicked at the start of every game.
 ![screenshot](documentation/feature02.png)
 
 - **Game Board**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - When emojis are selected, they will populate the game board. After a guess has been made, the tiles will change colour using the traffic light system (red for incorrect emoji, yellow for correct emoji, but wrong position and green for correct emoji in correct position).
 
 ![screenshot](documentation/feature03.png)
 
 - **Emoji Keyboard**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The on-screen emoji keyboard will allow the user to be able to select the emojis to be able to play the game. If and emoji is clicked, it will fill the tile. If the 5th tile in a row is filled, no more emojis can be clicked unless the row is cleared, an emoji is deleted using the backspace button, or the guess button has been clicked.
 
 ![screenshot](documentation/feature04.png)
 
 - **Clear Button**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - This button, when clicked, will clear a whole row of emojis to allow the user to select their emojis correctly.
 
 ![screenshot](documentation/feature05.png)
 
 - **Backspace Button**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - This button, when clicked, will clear one emoji at a time, incase the user changes their mind regarding the placement of certain emojis.
 
 ![screenshot](documentation/feature06.png)
 
 - **Guess Button**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - This button, when clicked, will chekc the selected emojis against the answer to see if the user has been able to guess the sequence of emojis correctly.
 
 ![screenshot](documentation/feature07.png)
 
 - **'Well Done' message**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The 'well done' message will appear if the user has been able to correctly guess the sequence of emojis in 6 guesses or less.
 
 ![screenshot](documentation/feature08.png)
 
 - **'Correct Answer' message**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The 'Correct Answer' message will appear at the end of the game - either when the person correctly guesses the sequence as a confirmation message, or when the user doesn't manage to get the answer correct after 6 guesses so that they can see what the answer should be.
 
 ![screenshot](documentation/feature09.png)
 
 - **'Game Over Banner' message**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The gamne over banner will appear in llace of the logo to show that the game has come to an end if the user has not been able to solve the correct emoji sequence.
 
 ![screenshot](documentation/feature10.png)
 
