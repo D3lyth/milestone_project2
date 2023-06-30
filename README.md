@@ -77,7 +77,7 @@ The fonts were chosen for the Emoji Match game due to their fun nature. The game
 ### Site Admin
 
 - As a site administrator, I should be able to click on the social links in the footer, so that I can ensure that the links are working.
-- As a site administrator, I should be able to click on the buttons, so that I can so that I na ensure that all buttons work.
+- As a site administrator, I should be able to click on the buttons, so that I can ensure that all buttons work.
 - As a site administrator, I should be able to manage instruction information, so that I can update if required.
 
 ## Wireframes
@@ -106,6 +106,7 @@ I've used GoodNotes, and iPad and an Apple Pencil to design my site wireframes.
 - **New Game Button**
 
     - This button when clicked will start a new game for the user. This must be clicked at the start of every game.
+
 ![screenshot](documentation/feature02.png)
 
 - **Game Board**
@@ -268,7 +269,7 @@ Some of the logic used for the JavaScript/HTML/css element of the code was inspi
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
 | [StackOverflow](https://stackoverflow.com/a/2450976) | quiz page | Fisher-Yates/Knuth shuffle in JS |
 | [freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/) | My project for the Certification task - Survey Form | css and keyframes for the colour-changing heading |
-| [Kenny Yip Coding](https://www.youtube.com/watch?v=ckjRsPaWHX8)| Kenny Yip Worrdle Clone Tutorial | Used for some of the logic for the basis of the game |
+| [Kenny Yip Coding](https://www.youtube.com/watch?v=ckjRsPaWHX8)| Kenny Yip Wordle Clone Tutorial | Used for some of the logic for the basis of the game |
 
 ### Media
 
