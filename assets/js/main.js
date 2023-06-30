@@ -1,3 +1,4 @@
+/* jshint esversion: 11 */
 let height = 6; // Number of guesses
 let width = 5; //Number of letters/emojis
 //Players guessing position
