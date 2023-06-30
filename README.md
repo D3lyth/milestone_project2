@@ -237,18 +237,28 @@ Comparing Local vs live deployment, there doesn't seem to be any differences in 
 
 ## Credits
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section you need to reference where you got your content, media, and extra help from.
-It is common practice to use code from other repositories and tutorials,
-however, it is important to be very specific about these sources to avoid plagiarism.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 ### Content
 
-Use this space to provide attribution links to any borrowed code snippets, elements, or resources.
-A few examples have been provided below to give you some ideas.
+Below is a list of some of the websites that I used to help completing the website.
+
+The colour-changing heading code used was code that I had used previously on another project (credited in table below):
+
+```css
+h1 {animation: color-change 2s infinite;
+}
+
+@keyframes color-change {
+  0% { color: #64ff00; }
+  25% { color: #FC49AB; }
+  50% { color: #ffa500; }
+  75% { color: #ffFF00; }
+  100% { color: #64ff00; }
+}
+```
+
+Some of the logic used for the JavaScript/HTML/css element of the code was inspired by Kenny Yip, and a tutorial by Kenny Yip Coding was followed. This tutorial was for a basic Wordle game. Credits and links are given in the table below.
+
+### Content
 
 | Source | Location | Notes |
 | --- | --- | --- |
@@ -257,10 +267,12 @@ A few examples have been provided below to give you some ideas.
 | [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
 | [StackOverflow](https://stackoverflow.com/a/2450976) | quiz page | Fisher-Yates/Knuth shuffle in JS |
+| [freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/) | My project for the Certification task - Survey Form | css and keyframes for the colour-changing heading |
+| [Kenny Yip Coding](https://www.youtube.com/watch?v=ckjRsPaWHX8)| Kenny Yip Worrdle Clone Tutorial | Used for some of the logic for the basis of the game |
 
 ### Media
 
-No media has been used for the site, other than teh emojis displayed. Unicode is used to show the emojis (in the title, the tiles, keyboard and 'well done' message). The images taken for the instructions modal are screen shots of the gameplay and compressed using TinyPNG.
+No media has been used for the site, other than the emojis displayed. Unicode is used to show the emojis (in the title, the tiles, keyboard and 'well done' message). The images taken for the instructions modal are screen shots of the gameplay and compressed using TinyPNG.
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
