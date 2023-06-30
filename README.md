@@ -119,37 +119,43 @@ I've used GoodNotes, and iPad and an Apple Pencil to design my site wireframes.
 
     - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
 
-![screenshot](documentation/feature03.png)
+![screenshot](documentation/feature04.png)
 
 - **Clear Button**
 
     - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
 
-![screenshot](documentation/feature03.png)
+![screenshot](documentation/feature05.png)
 
 - **Backspace Button**
 
     - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
 
-![screenshot](documentation/feature03.png)
+![screenshot](documentation/feature06.png)
 
 - **Guess Button**
 
     - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
 
-![screenshot](documentation/feature03.png)
+![screenshot](documentation/feature07.png)
 
 - **'Well Done' message**
 
     - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
 
-![screenshot](documentation/feature03.png)
+![screenshot](documentation/feature08.png)
 
 - **'Correct Answer' message**
 
     - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
 
-![screenshot](documentation/feature03.png)
+![screenshot](documentation/feature09.png)
+
+- **'Game Over Banner' message**
+
+    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+
+![screenshot](documentation/feature10.png)
 
 ### Future Features
 
