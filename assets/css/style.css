@@ -20,26 +20,22 @@ h1 {
 #newgame {
   font-size: 3vw;
   font-family: 'Bungee Shade', sans-serif;
-  color: #cd0ffc;
+  color: #000000;
 }
 
 @keyframes color-change {
   0% {
     background-color: #64ff00;
   }
-
   25% {
     background-color:#FC49AB;
   }
-
   50% {
     background-color: #ffa500;
   }
-
   75% {
     background-color: #ffFF00;
   }
-
   100% {
     background-color:#64ff00;
   }
@@ -159,7 +155,7 @@ img, svg {
 }
 
 i {
-  color: #cd0ffc;
+  color: #000000;
   font-size: 30px;
 }
 
@@ -174,7 +170,7 @@ i:hover {
 }
 
 .credits {
-  color: #cd0ffc;
+  color: #000000;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   justify-self: center;
