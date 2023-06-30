@@ -17,6 +17,11 @@ h1 {
   animation: color-change 5s infinite;
 }
 
+#newgame {
+  font-size: 3vw;
+  font-family: 'Bungee Shade', sans-serif;
+  color: #cd0ffc;
+}
 
 @keyframes color-change {
   0% {
@@ -66,7 +71,7 @@ img, svg {
 /* Game completion message */
 
 #well_done {
-  font-family: 'Rubik Puddles', cursive;
+  font-family: 'Bungee Shade', cursive;
   font-size: 6vw;
 }
 
