@@ -33,10 +33,9 @@ Due to the nature of the game and the colours of the emojis used, I have tried t
 
 - `#000000` has been used for primary text.
 - `#fffff` has been used for button text.
-- `#cd0ffc` has been used for instructional text, icons and other text.
 - `#f3f3f3` has been used as a background colour as off-white is less harsh on the eyes and better for accessibility.
 
-I used [We Love Colours](https://www.welovecolors.com/) as inspiration to research a colour pallete, which although (other than the emojis themselves) doesn't have a lot of colour, I wanted to incoroprate a neon theme.
+I used [We Love Colours](https://www.welovecolors.com/) as inspiration to research a colour pallete, which although (other than the emojis themselves) doesn't have a lot of colour, I wanted to incoroprate a neon theme in the logo.
 
 ![screenshot](documentation/colours.png)
 
@@ -184,7 +183,6 @@ I've used GoodNotes, and iPad and an Apple Pencil to design my site wireframes.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
 - [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Materialize](https://materializecss.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
 
 ## Testing
 
@@ -287,4 +285,4 @@ No media has been used for the site, other than the emojis displayed. Unicode is
 - I would like to thank Iris Smok, our course facilitator for her support and encouragement.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
 - I would like to thank my partner Rob, for believing in me, and allowing me to make this transition into software development.
-- I would like to thank my daughter Erin, for spending a lot of time playing and testing out the Emoji Match game to chekc for bugs and to give suggestions on the looks and feel of the game.
+- I would like to thank my daughter Erin, for spending a lot of time playing and testing out the Emoji Match game to check for bugs and to give suggestions on the looks and feel of the game.
