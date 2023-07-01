@@ -73,6 +73,7 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | --- | --- | --- |
 | Mobile (DevTools) | ![screenshot](documentation/responsive-mobile.png) | Works as expected |
 | Tablet (DevTools) | ![screenshot](documentation/responsive-tablet.png) | Works as expected |
+| Desktop (DevTools) | ![screenshot](documentation/responsive-desktopdevtools.png) | Works as expected |
 | Desktop | ![screenshot](documentation/responsive-desktop.png) | Works as expected |
 | iPhone 14 | ![screenshot](documentation/responsive-iphone.png) | Works as expected |
 | iPad Air | ![screenshot](documentation/responsive-ipadair.png) | Works as expected |
