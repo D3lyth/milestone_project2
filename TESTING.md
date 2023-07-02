@@ -189,7 +189,7 @@ This can be used for both "fixed" and "unresolved" issues.
 
 - JS Uncaught ReferenceError: `foobar` is undefined/not defined
 
-    ![screenshot](documentation/bug01.png)
+    ![screenshot](documentation/bug02.png)
 
     - To fix this, I _____________________.
 
