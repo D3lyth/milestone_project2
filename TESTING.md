@@ -38,7 +38,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | --- | --- | --- |
 | Chrome | ![screenshot](documentation/browser-chrome.png) | Works as expected |
 | Firefox | ![screenshot](documentation/browser-firefox.png) | Works as expected |
-| Edge | ![screenshot](documentation/browser-edge.png) | Works as expected |
+| Edge | ![screenshot](documentation/browser-edge.png) | Emojis look slightly different, but works as expected |
 | Safari | ![screenshot](documentation/browser-safari.png) | Minor CSS differences |
 | Brave | ![screenshot](documentation/browser-brave.png) | Works as expected |
 | Opera | ![screenshot](documentation/browser-opera.png) | Minor differences |
@@ -177,8 +177,6 @@ Remember to include screenshots (where possible), and a solution to the issue (i
 
 This can be used for both "fixed" and "unresolved" issues.
 
-
-
 ## Bugs
 
 - Chilli emoji was displaying incorrectly on certain devices and effecting gameplay (tiles were not changing to the correct colour).
@@ -195,7 +193,7 @@ This can be used for both "fixed" and "unresolved" issues.
 
 - JS `'let'` or `'const'` or `'template literal syntax'` or `'arrow function syntax (=>)'` is available in ES6 (use `'esversion: 11'`) or Mozilla JS extensions (use moz).
 
-    ![screenshot](documentation/bug02.png)
+    ![screenshot](documentation/bug03.png)
 
     - To fix this, I _____________________.
 
