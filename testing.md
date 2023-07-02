@@ -86,9 +86,9 @@ Defensive programming was manually tested with the below user acceptance testing
 | User Story | Screenshot |
 | --- | --- |
 | As a new site user, I would like to click on the 'How to Play'button, so that I can check the instructions. This works as expected. | ![screenshot](documentation/feature01.png) |
-| As a new site and returning user, I would like to click on the 'new Game' button, so that I can start a new game. This works as expected - button must be clicked at the beginning of EVERY new game. | ![screenshot](documentation/feature02.png) |
-| As a new site and returning user, I would like to ____________, so that I can ____________. This works as expected.| ![screenshot](documentation/feature03.png) |
-| As a new site and returning site user, I would like to see the gameboard, so that I can see which emojis I place into the tiles. This works as expected.| ![screenshot](documentation/feature04.png) |
+| As a new site and returning user, I would like to click on the 'New Game' button, so that I can start a new game. This works as expected - button must be clicked at the beginning of EVERY new game. | ![screenshot](documentation/feature02.png) |
+| As a new site and returning site user, I would like to see the gameboard, so that I can see which emojis I place into the tiles. This works as expected.| ![screenshot](documentation/feature03.png) |
+| As a new site and returning user, I would like to be able to use an on screen keyboard, so that I can select the emojis easily. This works as expected.| ![screenshot](documentation/feature04.png) |
 | As a new site and returning site user, I would like to click on a 'clear' button, so that I can remove all the emojis from a row of tiles if I have made aa mistaake whilst selecting the emojis.This works as expected. | ![screenshot](documentation/feature05.png) |
 | As a new site and returning site user, I would like to click on the backspace button, so that I can delete an emoji that I may have selected by mistake .This works as expected. | ![screenshot](documentation/feature06.png) |
 | As a new site and returning site user, I would like to click on the guess button, so that I can determine if my sequence of emojis is correct. This works as expected. | ![screenshot](documentation/feature07.png) |
