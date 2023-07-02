@@ -83,28 +83,18 @@ Defensive programming was manually tested with the below user acceptance testing
  
 ## User Story Testing
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Testing user stories is actually quite simple, once you've already got the stories defined on your README.
-
-Most of your project's **features** should already align with the **user stories**,
-so this should as simple as creating a table with the user story, matching with the re-used screenshot
-from the respective feature.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 | User Story | Screenshot |
 | --- | --- |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature01.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature02.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature03.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature04.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature05.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature06.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature07.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature08.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature09.png) |
-| repeat for all remaining user stories | x |
+| As a new site user, I would like to click on the 'How to Play'button, so that I can check the instructions. This works as expected. | ![screenshot](documentation/feature01.png) |
+| As a new site and returning user, I would like to click on the 'new Game' button, so that I can start a new game. This works as expected - button must be clicked at the beginning of EVERY new game. | ![screenshot](documentation/feature02.png) |
+| As a new site and returning user, I would like to ____________, so that I can ____________. This works as expected.| ![screenshot](documentation/feature03.png) |
+| As a new site and returning site user, I would like to see the gameboard, so that I can see which emojis I place into the tiles. This works as expected.| ![screenshot](documentation/feature04.png) |
+| As a new site and returning site user, I would like to click on a 'clear' button, so that I can remove all the emojis from a row of tiles if I have made aa mistaake whilst selecting the emojis.This works as expected. | ![screenshot](documentation/feature05.png) |
+| As a new site and returning site user, I would like to click on the backspace button, so that I can delete an emoji that I may have selected by mistake .This works as expected. | ![screenshot](documentation/feature06.png) |
+| As a new site and returning site user, I would like to click on the guess button, so that I can determine if my sequence of emojis is correct. This works as expected. | ![screenshot](documentation/feature07.png) |
+| As a new site and returning site user, I would like to see a 'well done' message, so that I can see that I have managed to complete the game and guess the sequence correctly. This works as expected. | ![screenshot](documentation/feature08.png) |
+| As a new site and returning site user, I would like to see the correct answer at the end of the game, so that I can see that my answer matches or what the correct answer is if I fail get get the sequence correct in 6 guesses or less. This works as expected. | ![screenshot](documentation/feature09.png) |
+| As a new site and returning site user, I would like to see the 'game over' banner at the end of the game, so that I can see that the game has finished. This works as expected. | ![screenshot](documentation/feature10.png) |
 
 ## Automated Testing
 
