@@ -240,3 +240,7 @@ function startNewGame() {
 function testWord() {
 	if (word != undefined) console.log(word);
 }
+
+if (typeof module !== "undefined") module.exports = {
+    startGame, handleKeyPress, handleClear, handleGuess, update, handleGameOver, clearBoard, startNewGame
+};
