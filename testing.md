@@ -187,6 +187,12 @@ This can be used for both "fixed" and "unresolved" issues.
 
 ## Bugs
 
+- Chilli emoji was displaying incorrectly on certain devices and effecting gameplay (tiles were not changing to the correct colour).
+
+    ![screenshot](documentation/bug01.png)
+
+🛑🛑🛑🛑🛑 WILL NEED TO REMOVE THIS 🛑🛑🛑🛑🛑
+
 - JS Uncaught ReferenceError: `foobar` is undefined/not defined
 
     ![screenshot](documentation/bug01.png)
