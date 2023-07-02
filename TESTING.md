@@ -214,9 +214,7 @@ This can be used for both "fixed" and "unresolved" issues.
 
     - Attempted fix: this is a known warning and acceptable, it doesn't require a header since it's dynamically added via JS.
 
-- When playing with the game initially, an issue came up that the chilli emoji wasn't appearing correvtly on some devices and wasn't matching up with the game in the correct manner.
-
-    ![screenshot](documentation/unfixed-bug02.png)  
+- When playing with the game initially, an issue came up that the chilli emoji wasn't appearing correctly on some devices and wasn't matching up with the game in the correct manner.
 
     - Attempted re-inserting the unicode, but issue was not rectified. A different emoji was chosen instead. See 'Bugs' for further details.
 
