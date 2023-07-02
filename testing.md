@@ -104,12 +104,6 @@ I fully acknowledge and understand that, in a real-world scenario, an extensive 
 
 ### JavaScript (Jest Testing)
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Adjust the code below (file names, etc.) to match your own project files/folders.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 I have used the [Jest](https://jestjs.io) JavaScript testing framework to test the application functionality.
 
 In order to work with Jest, I first had to initialize NPM.
@@ -123,7 +117,7 @@ Add Jest to a list called **Dev Dependencies** in a dev environment:
 
 **IMPORTANT**: Initial configurations
 
-When creating test files, the name of the file needs to be `file-name.test.js` in order for Jest to properly work.
+When creating test files, the name of the file needs to be `main.test.js` in order for Jest to properly work.
 
 Due to a change in Jest's default configuration, you'll need to add the following code to the top of the `.test.js` file:
 
@@ -183,7 +177,7 @@ Remember to include screenshots (where possible), and a solution to the issue (i
 
 This can be used for both "fixed" and "unresolved" issues.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+
 
 ## Bugs
 
@@ -205,72 +199,27 @@ This can be used for both "fixed" and "unresolved" issues.
 
     - To fix this, I _____________________.
 
-- Python `'ModuleNotFoundError'` when trying to import module from imported package
+🛑🛑🛑🛑🛑 WILL NEED TO REMOVE THIS 🛑🛑🛑🛑🛑
 
-    ![screenshot](documentation/bug03.png)
-
-    - To fix this, I _____________________.
-
-- Django `TemplateDoesNotExist` at /appname/path appname/template_name.html
-
-    ![screenshot](documentation/bug04.png)
-
-    - To fix this, I _____________________.
-
-- Python `E501 line too long` (93 > 79 characters)
-
-    ![screenshot](documentation/bug04.png)
-
-    - To fix this, I _____________________.
-
-### GitHub **Issues**
-
-**Fixed Bugs**
-
-All previously closed/fixed bugs can be tracked [here](https://github.com/D3lyth/milestone_project2/issues?q=is%3Aissue+is%3Aclosed).
-
-| Bug | Status |
-| --- | --- |
-| [JS Uncaught ReferenceError: `foobar` is undefined/not defined](https://github.com/D3lyth/milestone_project2/issues/1) | Closed |
-| [Python `'ModuleNotFoundError'` when trying to import module from imported package](https://github.com/D3lyth/milestone_project2/issues/2) | Closed |
-| [Django `TemplateDoesNotExist` at /appname/path appname/template_name.html](https://github.com/D3lyth/milestone_project2/issues/3) | Closed |
-
-**Open Issues**
-
-Any remaining open issues can be tracked [here](https://github.com/D3lyth/milestone_project2/issues).
-
-| Bug | Status |
-| --- | --- |
-| [JS `'let'` or `'const'` or `'template literal syntax'` or `'arrow function syntax (=>)'` is available in ES6 (use `'esversion: 11'`) or Mozilla JS extensions (use moz).](https://github.com/D3lyth/milestone_project2/issues/4) | Open |
-| [Python `E501 line too long` (93 > 79 characters)](https://github.com/D3lyth/milestone_project2/issues/5) | Open |
 
 ## Unfixed Bugs
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+- On devices smaller than 375px, the keys become too small to be able to use.
 
-You will need to mention unfixed bugs and why they were not fixed.
-This section should include shortcomings of the frameworks or technologies used.
-Although time can be a big variable to consider, paucity of time and difficulty understanding
-implementation is not a valid reason to leave bugs unfixed.
-
-If you've identified any unfixed bugs, no matter how small, be sure to list them here.
-It's better to be honest and list them, because if it's not documented and an assessor finds the issue,
-they need to know whether or not you're aware of them as well, and why you've not corrected/fixed them.
-
-Some examples:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- On devices smaller than 375px, the page starts to have `overflow-x` scrolling.
+- When guesssing the emojis, if an emoji that is present is repeated, then if the tile of the one in the correct place turns green, the other turns yellow.
 
     ![screenshot](documentation/unfixed-bug01.png)
 
-    - Attempted fix: I tried to add additional media queries to handle this, but things started becoming too small to read.
+    - Attempted fix: I tried to add a futher functions to allow for repeat emojis to work in the code, but this bug remains.
 
-- When validating HTML with a semantic `section` element, the validator warns about lacking a header `h2-h6`. This is acceptable.
+- When validating HTML element, the validator warns about an empty header. This is acceptable.
 
-    ![screenshot](documentation/unfixed-bug03.png)
+    - Attempted fix: this is a known warning and acceptable, it doesn't require a header since it's dynamically added via JS.
 
-    - Attempted fix: this is a known warning and acceptable, and my section doesn't require a header since it's dynamically added via JS.
+- When playing with the game initially, an issue came up that the chilli emoji wasn't appearing correvtly on some devices and wasn't matching up with the game in the correct manner.
+
+    ![screenshot](documentation/unfixed-bug02.png)  
+
+    - Attempted re-inserting the unicode, but issue was not rectified. A different emoji was chosen instead. See 'Bugs' for further details.
 
 Other that the points listed above, there are no remaining bugs that I am aware of.
