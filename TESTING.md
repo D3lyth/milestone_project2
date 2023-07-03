@@ -183,22 +183,14 @@ This can be used for both "fixed" and "unresolved" issues.
 
     ![screenshot](documentation/bug01.png)
 
-🛑🛑🛑🛑🛑 WILL NEED TO REMOVE THIS 🛑🛑🛑🛑🛑
+    - To fix this, I changed the chilli emoji to the ice cream emoji, and the game play was rectified.
 
-- JS Uncaught ReferenceError: `foobar` is undefined/not defined
+
+- When clicking on "Guess" the gameAnswer appears empty and is not populated if "New Game" is not clicked when the page loads.
 
     ![screenshot](documentation/bug02.png)
 
-    - To fix this, I _____________________.
-
-- JS `'let'` or `'const'` or `'template literal syntax'` or `'arrow function syntax (=>)'` is available in ES6 (use `'esversion: 11'`) or Mozilla JS extensions (use moz).
-
-    ![screenshot](documentation/bug03.png)
-
-    - To fix this, I _____________________.
-
-🛑🛑🛑🛑🛑 WILL NEED TO REMOVE THIS 🛑🛑🛑🛑🛑
-
+    - To fix this, I added the  ```startNewGame();``` function as a stand alone function call.
 
 ## Unfixed Bugs
 
