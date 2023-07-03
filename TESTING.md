@@ -192,6 +192,13 @@ This can be used for both "fixed" and "unresolved" issues.
 
     - To fix this, I added the  ```startNewGame();``` function as a stand alone function call.
 
+- When validating HTML element, the validator warns about an empty header.
+
+    ![screenshot](documentation/bug03.png)
+
+
+    - To fix this I filled the header with 5 random emojis - these emojis are hidden and the string will be  overwritten by the JS.
+
 ## Unfixed Bugs
 
 - On devices smaller than 375px, the keys become too small to be able to use.
@@ -202,9 +209,7 @@ This can be used for both "fixed" and "unresolved" issues.
 
     - Attempted fix: I tried to add a futher functions to allow for repeat emojis to work in the code, but this bug remains.
 
-- When validating HTML element, the validator warns about an empty header. This is acceptable.
 
-    - Attempted fix: this is a known warning and acceptable, it doesn't require a header since it's dynamically added via JS.
 
 - When playing with the game initially, an issue came up that the chilli emoji wasn't appearing correctly on some devices and wasn't matching up with the game in the correct manner.
 
