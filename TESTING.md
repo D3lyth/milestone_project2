@@ -10,7 +10,7 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FD3lyth.github.io%2Fmilestone_project2%2Findex.html) | ![screenshot](documentation/html-validation-home.png) | Section lacks header h2-h6 warning |
+| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FD3lyth.github.io%2Fmilestone_project2%2Findex.html) | ![screenshot](documentation/html-validation-home.png) | Pass - No Errors |
 
 ### CSS
 
@@ -173,7 +173,7 @@ Below are the results from the tests that I've written for this application:
 
 ![screenshot](documentation/js-jest-issues01.png)
 
-  -  To fix this I used StackOverflow to search similar issues that others have come across and found that the issue was due to the fact that the that the element that I was trying to append to dynamically using js (the tiles) does not exist in the DOM when the code is executed. Therefore The js code needed to be wrapped in: 
+  -  To fix this I used StackOverflow to search similar issues that others have had. I found that the issue was due to the fact that the element that I was trying to append to dynamically using js, (the tiles), does not exist in the DOM when the code is executed. Therefore The js code needed to be wrapped in: 
   ```document.addEventListener('DOMContentLoaded', function() {}); ```
   to ensure that the code exists in the DOM and executed when the DOM is fully loaded.
 
