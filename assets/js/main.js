@@ -1,4 +1,5 @@
-/* jshint esversion: 11 */
+/* jshint esversion: 11, jquery: true */
+document.addEventListener('DOMContentLoaded', function() {
 let height = 6; // Number of guesses
 let width = 5; //Number of letters/emojis
 //Players guessing position
@@ -245,3 +246,5 @@ function testWord() {
 if (typeof module !== "undefined") module.exports = {
     startGame, handleKeyPress, handleClear, handleGuess, update, handleGameOver, clearBoard, startNewGame
 };
+
+});
