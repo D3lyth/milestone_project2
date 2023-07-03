@@ -165,17 +165,17 @@ Below are the results from the tests that I've written for this application:
 
 | Test Suites | Tests | Coverage | Screenshot |
 | --- | --- | --- | --- |
-| 1 passed | 16 passed | 55% | ![screenshot](documentation/js-test-coverage.png) |
-| x | x | x | repeat for all remaining tests |
+| 1 passed | 5 passed |  | ![screenshot](documentation/js-test-coverage.png) |
 
 #### Jest Test Issues
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+- A Test suite failed to run issue came up when running the initial tests. A TypeError: Cannot read properties of null (reading 'appendChild') was occurring. 
 
-Use this section to list any known issues you ran into while writing your Jest tests.
-Remember to include screenshots (where possible), and a solution to the issue (if known).
+![screenshot](documentation/js-jest-issues01.png)
 
-This can be used for both "fixed" and "unresolved" issues.
+  -  To fix this I used StackOverflow to search similar issues that others have come across and found that the issue was due to the fact that the that the element that I was trying to append to dynamically using js (the tiles) does not exist in the DOM when the code is executed. Therefore The js code needed to be wrapped in: 
+  ```document.addEventListener('DOMContentLoaded', function() {}); ```
+  to ensure that the code exists in the DOM and executed when the DOM is fully loaded.
 
 ## Bugs
 
