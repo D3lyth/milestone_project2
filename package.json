@@ -148,6 +148,7 @@
     "jest-validate": "^29.5.0",
     "jest-watcher": "^29.5.0",
     "jest-worker": "^29.5.0",
+    "jquery": "^3.7.0",
     "js-tokens": "^4.0.0",
     "js-yaml": "^3.14.1",
     "jsdom": "^20.0.3",
