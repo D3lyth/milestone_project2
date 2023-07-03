@@ -99,6 +99,7 @@ for (let i = 0; i < keys.length; i++) {
 // Add event listener for the new game button
 const newGameButton = document.getElementById("newGameButton");
 newGameButton.addEventListener("click", startNewGame);
+startNewGame();
 
 
 // Function to handle keyboard button click
